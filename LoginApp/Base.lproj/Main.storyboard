@@ -136,8 +136,7 @@
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="loginButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="X9v-4f-2YL"/>
-                                            <segue destination="J0O-bM-QbT" kind="show" id="KXA-KR-SPC"/>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KhC-pO-6yq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -166,7 +165,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="registerButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxP-rV-meU"/>
+                                            <action selector="registerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVT-lr-KO9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -204,6 +203,7 @@
                         <outlet property="passwordTextField" destination="gYN-hJ-aZI" id="ol1-2H-mHO"/>
                         <outlet property="registerLabel" destination="60O-6e-3OX" id="v7F-ql-DWH"/>
                         <outlet property="signupButton" destination="g8j-Vd-G8a" id="XoK-nK-Fqi"/>
+                        <segue destination="J0O-bM-QbT" kind="show" identifier="goToSecondVC" id="wRv-Qh-AdZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

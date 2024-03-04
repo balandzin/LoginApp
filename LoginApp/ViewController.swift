@@ -35,10 +35,10 @@ final class ViewController: UIViewController {
     
     // MARK: - Actions
     @IBAction func loginButtonPressed(_ sender: UIButton) {
-        print("Login button pressed")
+        performSegue(withIdentifier: "goToSecondVC", sender: sender)
     }
     
-    @IBAction func registerButtonPressed(_ sender: UIButton) {
+    @IBAction func registerButtonPressed(_ sender: UIButton) {    
         print("Register button pressed")
     }
     
