@@ -8,16 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    @IBOutlet var titleLabel: UILabel!
-    
+        
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
-
 }
-

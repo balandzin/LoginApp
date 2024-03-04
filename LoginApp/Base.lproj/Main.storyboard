@@ -25,42 +25,17 @@
             </objects>
             <point key="canvasLocation" x="-756" y="-27"/>
         </scene>
-        <!--First-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fF-T7-SAn">
-                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="J0O-bM-QbT" kind="show" id="aCx-Ej-nSQ"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqY-6W-EKZ">
-                                <rect key="frame" x="175.66666666666666" y="337.66666666666669" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="4fF-T7-SAn" firstAttribute="top" secondItem="oqY-6W-EKZ" secondAttribute="bottom" constant="50" id="Jrw-YU-Nd6"/>
-                            <constraint firstItem="4fF-T7-SAn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MLa-jc-e4J"/>
-                            <constraint firstItem="4fF-T7-SAn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZKj-ng-u8k"/>
-                            <constraint firstItem="oqY-6W-EKZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wfd-aV-pVv"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="First" id="M1W-dF-Doc"/>
-                    <connections>
-                        <outlet property="titleLabel" destination="oqY-6W-EKZ" id="dab-Su-EdO"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="M1W-dF-Doc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
