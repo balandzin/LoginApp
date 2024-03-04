@@ -10,6 +10,10 @@ import UIKit
 final class ViewController: UIViewController {
     
     // MARK: - Outlets
+    
+    @IBOutlet var envelopImageView: UIImageView!
+    @IBOutlet var lockImageView: UIImageView!
+    
     @IBOutlet var emailTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
     
@@ -17,7 +21,7 @@ final class ViewController: UIViewController {
     @IBOutlet var passwordLineView: UIView!
     
     @IBOutlet var loginButton: UIButton!
-    @IBOutlet var registerButton: UIButton!
+    @IBOutlet var signupButton: UIButton!
     
     @IBOutlet var registerLabel: UILabel!
     
@@ -30,11 +34,11 @@ final class ViewController: UIViewController {
     }
     
     // MARK: - Actions
-    @IBAction func loginButtonPressed() {
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
         print("Login button pressed")
     }
     
-    @IBAction func registerButtonPressed() {
+    @IBAction func registerButtonPressed(_ sender: UIButton) {
         print("Register button pressed")
     }
     

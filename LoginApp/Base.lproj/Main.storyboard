@@ -197,11 +197,13 @@
                     <connections>
                         <outlet property="emailLineView" destination="nWL-C7-F5r" id="821-XG-q7m"/>
                         <outlet property="emailTextField" destination="1hX-FR-5yd" id="xOc-vc-aC7"/>
+                        <outlet property="envelopImageView" destination="QBM-qe-K7D" id="7IO-dG-2bg"/>
+                        <outlet property="lockImageView" destination="1bG-t5-iII" id="zBs-MN-93l"/>
                         <outlet property="loginButton" destination="8mD-U7-yzu" id="1b4-yR-TAm"/>
                         <outlet property="passwordLineView" destination="ioR-23-arR" id="GsD-Ex-ge8"/>
                         <outlet property="passwordTextField" destination="gYN-hJ-aZI" id="ol1-2H-mHO"/>
-                        <outlet property="registerButton" destination="g8j-Vd-G8a" id="XoK-nK-Fqi"/>
                         <outlet property="registerLabel" destination="60O-6e-3OX" id="v7F-ql-DWH"/>
+                        <outlet property="signupButton" destination="g8j-Vd-G8a" id="XoK-nK-Fqi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
