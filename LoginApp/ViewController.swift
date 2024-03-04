@@ -46,9 +46,9 @@ final class ViewController: UIViewController {
         loginButton.layer.cornerRadius = 10
         
         // Shadow
-        loginButton.layer.shadowColor = UIColor.darkGray.cgColor
-        loginButton.layer.shadowOffset = CGSize(width: 0, height: 2)
+        loginButton.layer.shadowColor = (UIColor(named: "customColor") ?? UIColor.gray).cgColor
+        loginButton.layer.shadowOffset = CGSize(width: 0, height: 5)
         loginButton.layer.shadowOpacity = 0.5
-        loginButton.layer.shadowRadius = 4
+        loginButton.layer.shadowRadius = 5
     }
 }
