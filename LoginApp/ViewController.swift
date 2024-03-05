@@ -78,8 +78,6 @@ final class ViewController: UIViewController {
             performSegue(withIdentifier: "goToSecondVC", sender: sender)
         } else {
             showAlert(title: "Oops!".localalized, message: "Wrong email or password  🤷‍♂️".localalized)
-            emailTextField.text = ""
-            passwordTextField.text = ""
         }
     }
     
